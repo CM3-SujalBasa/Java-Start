@@ -33,7 +33,7 @@ class char_analyser{
             }
         }
         if ((no>=65 && no<=90) || (no>=97 && no<=122)){
-            if (f==true) {
+            if (f) {
                 System.out.print("\n"+(char)no+" is a vowel");
             }
             else{
